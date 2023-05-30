@@ -36,7 +36,7 @@
 - Make simple calculations.
 - Read a random math-related quote.
 
-(For now is just the setup)
+(For now design only )
 
 
 ## 🛠 Built With <a name="built-with"></a>

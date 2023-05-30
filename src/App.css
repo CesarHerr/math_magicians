@@ -5,7 +5,7 @@
 }
 
 .App {
-  height: 100vh;  
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@
 
 .calculator-container {
   width: 650px;
-  height: 500px;   
+  height: 500px;
   border: 5px solid #545151;
   display: flex;
   flex-wrap: wrap;
@@ -23,7 +23,7 @@
 }
 
 .display {
-  background-color: rgb(132,135,147);
+  background-color: rgb(132, 135, 147);
   width: 100%;
   height: auto;
   right: 0;
@@ -49,9 +49,9 @@
 }
 
 .right {
-  background-color: rgb(245,144,63);
+  background-color: rgb(245, 144, 63);
 }
 
- .calculator .center {
-  background-color: rgb(224,224,224);
+.calculator .center {
+  background-color: rgb(224, 224, 224);
 }
