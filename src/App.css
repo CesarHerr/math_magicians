@@ -7,8 +7,9 @@
 .App {
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  flex-direction: column;
 }
 
 .calculator-container {
@@ -61,4 +62,10 @@
 
 .btn:active {
   background-color: rgb(224, 224, 224);
+}
+
+.quotes {
+  background-color: aqua;
+  font-size: 2rem;
+  width: 60%;
 }
