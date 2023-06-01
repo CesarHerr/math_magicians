@@ -20,10 +20,10 @@ const Quotes = () => {
         }
 
         const result = await response.json();
-        console.log(result[0]);
+
         setQuotes(result[0]);
       } catch (error) {
-        throw new Error('Error: ', error.message);       
+        throw new Error('Error: ', error.message);
       }
     };
 
@@ -31,8 +31,9 @@ const Quotes = () => {
   }, []);
 
   return (
-    <section className='quotes'>
-      "{quotes.quote}" - {quotes.author}
+    <section className="quotes">
+      <span>{quotes.quote}</span>
+      <span className="author">{quotes.author}</span>
     </section>
   );
 };

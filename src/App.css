@@ -65,7 +65,11 @@
 }
 
 .quotes {
-  background-color: aqua;
-  font-size: 2rem;
+  font-size: 1.7rem;
   width: 60%;
+}
+
+.author {
+  font-weight: bold;
+  margin-left: 1rem;
 }
