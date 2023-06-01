@@ -17,8 +17,7 @@
   border: 5px solid #545151;
   display: flex;
   flex-wrap: wrap;
-  border-radius: 18px;
-  flex-direction: row-reverse;
+  border-radius: 18px;  
   background-color: blueviolet;
 }
 
@@ -48,10 +47,19 @@
   width: 50%;
 }
 
-.right {
+.orange {
   background-color: rgb(245, 144, 63);
 }
 
 .calculator .center {
+  background-color: rgb(224, 224, 224);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(206, 205, 205);
+}
+
+.btn:active {
   background-color: rgb(224, 224, 224);
 }
