@@ -14,11 +14,10 @@
 .calculator-container {
   width: 650px;
   height: 500px;
-  border: 5px solid #545151;
+  border: 1px solid #0e0d0d;
   display: flex;
-  flex-wrap: wrap;
-  border-radius: 18px;  
-  background-color: blueviolet;
+  flex-wrap: wrap;  
+  background-color: rgb(16, 15, 16);
 }
 
 .display {
@@ -30,7 +29,7 @@
   flex-direction: row-reverse;
   font-size: 2.5rem;
   align-items: center;
-  border-radius: 8px;
+  border-radius: 2px;
   color: #fff;
   padding-right: 0.5em;
 }

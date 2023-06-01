@@ -36,8 +36,6 @@
 - Make simple calculations.
 - Read a random math-related quote.
 
-(For now design only )
-
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -163,9 +161,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Create a functional calculator
-- Add styles to the project.
-- Make it responsive.
+- Connect to an API 
+- Create Home and Quote sections.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
