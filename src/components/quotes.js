@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 const Quotes = () => {
   const [quotes, setQuotes] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     const category = 'intelligence';
@@ -22,13 +24,25 @@ const Quotes = () => {
         const result = await response.json();
 
         setQuotes(result[0]);
+        setLoading(false);
       } catch (error) {
-        throw new Error('Error: ', error.message);
+        setError('Error: ', error.message);
+        setLoading(false);
       }
     };
 
     getQuotes();
   }, []);
+
+  if (loading) {
+    return <p className="loading">Loading...</p>;
+  }
+
+  if (error) {
+    return (
+      <div>Error!!!</div>
+    );
+  }
 
   return (
     <section className="quotes">
