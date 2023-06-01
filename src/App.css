@@ -14,12 +14,10 @@
 .calculator-container {
   width: 650px;
   height: 500px;
-  border: 5px solid #545151;
+  border: 1px solid #0e0d0d;
   display: flex;
   flex-wrap: wrap;
-  border-radius: 18px;
-  flex-direction: row-reverse;
-  background-color: blueviolet;
+  background-color: rgb(16, 15, 16);
 }
 
 .display {
@@ -31,7 +29,7 @@
   flex-direction: row-reverse;
   font-size: 2.5rem;
   align-items: center;
-  border-radius: 8px;
+  border-radius: 2px;
   color: #fff;
   padding-right: 0.5em;
 }
@@ -48,10 +46,19 @@
   width: 50%;
 }
 
-.right {
+.orange {
   background-color: rgb(245, 144, 63);
 }
 
 .calculator .center {
+  background-color: rgb(224, 224, 224);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(206, 205, 205);
+}
+
+.btn:active {
   background-color: rgb(224, 224, 224);
 }
